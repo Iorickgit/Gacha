@@ -18,7 +18,7 @@ class ResultViewController: UIViewController {
     //Load時のファンクション
     override func viewDidLoad() {
         super.viewDidLoad()
-        //Randomで数字を生成　教科書に不備あり？確認お願いします
+        //Randomで数字を生成
         let number = Int(rand() % 10)
         //monsterArrayの中身を作る
         monsterArray = [
